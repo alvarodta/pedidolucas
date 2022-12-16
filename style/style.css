@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Quicksand&display=swap');
+body{ background-color: #fff; }
+a{ color: #76DC14; }
+h1{ font-weight: 400; }
+.container-pergunta{
+    margin: 10% 35%;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 1em #ccc;
+    text-align: center;
+    font-family: 'Poppins';
+}
+.container-pergunta span{
+    color: #252525;
+    font-weight: 600;
+    text-align: center;   
+    font-size: 1.1em; 
+}
+.col{
+    display: flex;
+    margin-top: 25px;
+}
+.col button{
+    width: 30%;
+    margin: 0% 10%;
+    padding: 5px;
+    font-weight: 600;
+    border-radius: 12px;
+    font-size: 16px;
+}
+.col button:hover{
+    cursor: pointer;
+}
+#btn-sim{
+    background-color: #76DC14;
+    box-shadow: 0 0 0.3em #76DC14;
+    border: none;
+    color: #fff;
+    position: relative;
+}
+#btn-nao{
+    background-color: red;
+    box-shadow:  0 0 0.3em red;
+    border: none;
+    color: #fff;
+}
+#popup-no{
+    margin: 10% 20%;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 1em #ccc;
+    text-align: center;
+    font-family: 'Poppins';
+}
+#popup-no h2{
+    color: #76DC14;
+}
+#container-finalizacao{
+    margin: 2% 20%;
+    padding: 50px;
+    border-radius: 15px;
+    box-shadow: 0 0 1em #ccc;
+    text-align: center;
+    font-family: 'Poppins';
+}
+#container-finalizacao img{
+    width: 40%;
+}
+#container-finalizacao h2{
+    color: #76DC14;
+}
+#container-finalizacao p{
+    color: red;
+    font-size: 1.5em;
+}
